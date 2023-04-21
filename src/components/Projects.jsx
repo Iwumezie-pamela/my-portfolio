@@ -4,7 +4,7 @@ import comfy from '../images/comfy.jpg';
 import netflix from '../images/netflix.jpg';
 import space from '../images/space.jpg';
 import cocktail from '../images/cocktail.jpg';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import portfolio from '../images/portfolio.jpg';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -49,6 +49,15 @@ const Projects = () => {
       name: 'Cocktail Db',
       title:
         ' Built with React js.Data was gotten from The Cocktail Database and Api was consumed using axios JavaScript library. Filters drink based on search',
+    },
+    {
+      id: 5,
+      img: portfolio,
+      link: 'https://my-portfolio-rust-one-97.vercel.app/',
+      github: 'https://github.com/Iwumezie-pamela/my-portfolio',
+      name: 'Portfolio',
+      title:
+        ' Built with React js and tailwind css. Animation was also created using framer motion',
     },
   ];
 
