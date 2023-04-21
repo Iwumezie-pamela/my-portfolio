@@ -72,7 +72,7 @@ const Projects = () => {
               className='w-screen flex flex-col flex-shrink-0 space-y-5 items-center justify-center px-20 pt-24 md:p-44 md:pt-60 h-screen snap-center'
             >
               <motion.img
-                initial={{ y: -300, opacity: 0 }}
+                initial={{ y: -100, opacity: 0 }}
                 transition={{ duration: 1.2 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
