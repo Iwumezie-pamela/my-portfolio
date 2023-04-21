@@ -22,15 +22,10 @@ const About = () => {
         }}
         viewport={{ once: true }}
         src={Pamela}
-        className='-mb-32 mt-3 sm:mt-0 md:mb-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-48 md:h-60 xl:w-[250px] xl:h-[350px]'
+        className='-mb-44 mt-3 sm:mt-0 md:mb-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-48 md:h-60 xl:w-[250px] xl:h-[350px]'
       />
 
       <motion.div className='space-y-10 px-0 md:px-10'>
-        <h4 className='text-4xl font-semibold'>
-          Here is a{' '}
-          <span className='underline decoration-emerald-300/50'>little</span>{' '}
-          background
-        </h4>
         <p className='text-sm'>
           I am pamela, a Technically astute front-end developer with an
           experience in managing and configuring ReactJs. A proven track record
