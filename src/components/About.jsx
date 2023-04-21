@@ -22,7 +22,7 @@ const About = () => {
         }}
         viewport={{ once: true }}
         src={Pamela}
-        className='-mb-44 mt-3 sm:mt-0 md:mb-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-48 md:h-60 xl:w-[250px] xl:h-[350px]'
+        className='-mb-36 mt-3 sm:mt-0 md:mb-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-48 md:h-60 xl:w-[250px] xl:h-[350px]'
       />
 
       <motion.div className='space-y-10 px-0 md:px-10'>
