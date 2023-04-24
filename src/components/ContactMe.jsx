@@ -68,7 +68,7 @@ const ContactMe = () => {
           />
           <button
             type='submit'
-            className='cursor-pointer bg-emerald-300 py-5 px-10 rounded-md text-black font-bold text-lg'
+            className='cursor-pointer bg-emerald-300 h-14 w-full rounded-md text-black font-bold text-lg'
           >
             Submit
           </button>
