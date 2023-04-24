@@ -11,3 +11,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer components {
+  .input {
+    @apply outline-none bg-slate-400/10 rounded-sm border-b md:px-6 px-2 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all focus:border-emerald-300/40 focus:text-white/60 hover:border-emerald-300/40;
+  }
+}

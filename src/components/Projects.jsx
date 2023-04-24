@@ -68,17 +68,17 @@ const Projects = () => {
       transition={{ duration: 1.5 }}
       className='flex flex-col overflow-hidden text-left relative h-screen md:flex-row max-w-full justify-evenly z-0 mx-auto items-center'
     >
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl '>
         Projects
       </h3>
 
-      <div className='relative w-full flex overflow-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
+      <div className='relative w-full flex overflow-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thin scrollbar-thumb-emerald-300/80'>
         {projects.map((project) => {
           const { id, img, link, github, name, title } = project;
           return (
             <article
               key={id}
-              className='w-screen flex flex-col flex-shrink-0 space-y-5 items-center justify-center px-20 pt-24 md:p-44 md:pt-60 h-screen snap-center'
+              className='w-screen flex flex-col flex-shrink-0 space-y-5 items-center justify-center px-20 pt-24 md:p-44 md:pt-60 h-screen snap-center '
             >
               <motion.img
                 initial={{ y: -100, opacity: 0 }}
@@ -89,6 +89,7 @@ const Projects = () => {
                 alt={name}
                 className='md:w-[50%] rounded-lg lg:w-[40%]'
               />
+
               <div className='space-y-6 px-0 md:px-10 max-w-6xl'>
                 <h4 className='whitespace-nowrap text-xl md:text-4xl font-semibold text-center'>
                   <span className='underline decoration-emerald-300/50'>

@@ -63,15 +63,17 @@ const Header = () => {
         }}
         className='flex flex-row text-gray-300 items-center cursor-pointer'
       >
-        <SocialIcon
-          className='cursor-pointer'
-          network='email'
-          fgColor='gray'
-          bgColor='transparent'
-        />
-        <p className='hidden md:inline-flex uppercase text-sm text-gray-400'>
-          Get In Touch
-        </p>
+        <a href='#contact'>
+          <SocialIcon
+            className='cursor-pointer'
+            network='email'
+            fgColor='gray'
+            bgColor='transparent'
+          />
+          <p className='hidden md:inline-flex uppercase text-sm text-gray-400'>
+            Get In Touch
+          </p>
+        </a>
       </motion.div>
     </header>
   );
