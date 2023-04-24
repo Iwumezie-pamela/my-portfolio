@@ -15,8 +15,8 @@ const ContactMe = () => {
         Contact
       </h3>
 
-      <div className='flex flex-col space-y-10 '>
-        <h4 className='text-3xl md:text-4xl font-semibold text-center mt-10'>
+      <div className='flex flex-col space-y-10'>
+        <h4 className='text-xl max-w-[18rem] mx-auto md:mx-0 md:max-w-none md:text-4xl font-semibold text-center mt-10'>
           I have got just what you need.{' '}
           <span className='underline decoration-emerald-300/50'>
             Lets Talk.
@@ -38,7 +38,7 @@ const ContactMe = () => {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className='flex flex-col space-y-2 w-fit  mx-auto'
+          className='flex flex-col space-y-2 w-fit mx-auto'
         >
           <div className='flex space-x-2'>
             <input
