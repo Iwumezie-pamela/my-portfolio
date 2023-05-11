@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import { useForm } from 'react-hook-form';
 
@@ -17,7 +17,7 @@ const ContactMe = () => {
 
       <div className='flex flex-col space-y-10'>
         <h4 className='text-xl max-w-[18rem] mx-auto md:mx-0 md:max-w-none md:text-4xl font-semibold text-center mt-10'>
-          I have got just what you need.{' '}
+          I have got just what you need.
           <span className='underline decoration-emerald-300/50'>
             Lets Talk.
           </span>
@@ -31,7 +31,7 @@ const ContactMe = () => {
 
           <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-emerald-300 h-6 w-6 animate-pulse' />
-            <p>iwumeziep@gmail.com</p>
+            <p>Iwumeziep@gmail.com</p>
           </div>
         </div>
         {/* react hooks form */}
