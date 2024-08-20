@@ -10,6 +10,10 @@ import github from '../images/github.png';
 import styled from '../images/styled.png';
 import tailwind from '../images/tailwind.png';
 import typescript from '../images/typescript.png';
+import next_image from '../images/next_image.png';
+import mysql from '../images/mysql.png';
+import scss from '../images/scss.png';
+import ssms from '../images/ssms.png';
 
 const SkillImage = () => {
   const skills1 = [
@@ -26,6 +30,10 @@ const SkillImage = () => {
     { id: 8, img: styled },
     { id: 9, img: tailwind },
     { id: 10, img: typescript },
+    { id: 11, img: next_image },
+    { id: 12, img: mysql },
+    { id: 13, img: scss },
+    { id: 14, img: ssms },
   ];
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import comfy from '../images/comfy.jpg';
+import mcniff from '../images/mcniff.png';
+import rayvvin from '../images/rayvvin.png';
 import netflix from '../images/netflix.jpg';
 import space from '../images/space.jpg';
 import cocktail from '../images/cocktail.jpg';
@@ -17,44 +18,25 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      img: comfy,
-      link: 'https://comfy-sloth-e-commerce-project.netlify.app/',
-      github: 'https://github.com/Iwumezie-pamela/Comfy-Sloth-React-Project',
-      name: 'Comfy Sloth',
+      img: rayvvin,
+      link: 'https://rayvvin.com/',
+      name: 'Rayvvin',
       title:
-        'Built with Reactjs,Worked with Auth0 and this serves in adding authentication and authorization to our website.Worked with stripejs Api and it was used to tokenize customer’s information and also collect payment details.API was consumed using axios JavaScript library',
+        'Built with Next.js, Integrated with SCSS, Tailwind CSS, and Axios for Seamless Ecommerce Experience',
     },
     {
       id: 2,
-      img: netflix,
-      link: 'https://netflix-clone-mu-flax.vercel.app/',
-      github: 'https://github.com/Iwumezie-pamela/Netflix-clone',
-      name: 'Netflix Clone',
+      img: mcniff,
+      link: 'https://mcnifcuisine.co.uk/',
+      name: 'Mcniff Website',
       title:
-        ' Built with React js and Tailwind Css.Worked with Firebase to enable user authentication.Data was gotten from The Movie Database(TMDB) and Api was consumed using axios JavaScript library.',
+        'Developed with Next.js, Tailwind CSS, and Axios for a Seamless Ecommerce Experience. This project was a collaborative effort by my team and me.',
     },
     {
       id: 3,
-      img: space,
-      link: 'https://space-tourism-xi-wheat.vercel.app/',
-      github: 'https://github.com/Iwumezie-pamela/space-tourism',
-      name: 'Space Tourism',
-      title: ' Built with React js and Tailwind Css.',
-    },
-    {
-      id: 4,
-      img: cocktail,
-      link: 'https://react-cocktail-project-two.vercel.app/',
-      github: 'https://github.com/Iwumezie-pamela/React-cocktail-project',
-      name: 'Cocktail Db',
-      title:
-        ' Built with React js.Data was gotten from The Cocktail Database and Api was consumed using axios JavaScript library. Filters drink based on search',
-    },
-    {
-      id: 5,
       img: portfolio,
       link: 'https://my-portfolio-rust-one-97.vercel.app/',
-      github: 'https://github.com/Iwumezie-pamela/my-portfolio',
+      //   github: 'https://github.com/Iwumezie-pamela/my-portfolio',
       name: 'Portfolio',
       title:
         ' Built with React js and tailwind css. Animation was also created using framer motion',
@@ -106,12 +88,12 @@ const Projects = () => {
                   >
                     Live Link
                   </a>
-                  <a
+                  {/* <a
                     href={github}
                     className='border border-emerald-300/50 hover:scale-105 px-3 py-2 md:px-7  rounded-full transition duration-300 ease-in-out'
                   >
                     Github Link
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </article>
