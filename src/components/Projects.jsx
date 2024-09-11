@@ -16,16 +16,16 @@ import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 
 const Projects = () => {
   const projects = [
+    // {
+    //   id: 1,
+    //   img: rayvvin,
+    //   link: 'https://rayvvin.com/',
+    //   name: 'Rayvvin',
+    //   title:
+    //     'Built with Next.js, Integrated with SCSS, Tailwind CSS, and Axios for Seamless Ecommerce Experience',
+    // },
     {
       id: 1,
-      img: rayvvin,
-      link: 'https://rayvvin.com/',
-      name: 'Rayvvin',
-      title:
-        'Built with Next.js, Integrated with SCSS, Tailwind CSS, and Axios for Seamless Ecommerce Experience',
-    },
-    {
-      id: 2,
       img: mcniff,
       link: 'https://mcnifcuisine.co.uk/',
       name: 'Mcniff Website',
@@ -33,7 +33,7 @@ const Projects = () => {
         'Developed with Next.js, Tailwind CSS, and Axios for a Seamless Ecommerce Experience. This project was a collaborative effort by my team and me.',
     },
     {
-      id: 3,
+      id: 2,
       img: portfolio,
       link: 'https://my-portfolio-rust-one-97.vercel.app/',
       //   github: 'https://github.com/Iwumezie-pamela/my-portfolio',
