@@ -26,12 +26,12 @@ const ContactMe = () => {
         <div className='space-y-6'>
           <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-emerald-300 h-6 w-6 animate-pulse' />
-            <p>+2349056614548</p>
+            <a href='tel:+2349056614548'>+2349056614548</a>
           </div>
 
           <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-emerald-300 h-6 w-6 animate-pulse' />
-            <p>Iwumeziep@gmail.com</p>
+            <a href='mailto:iwumeziep@gmail.com'>Iwumeziep@gmail.com</a>
           </div>
         </div>
         {/* react hooks form */}

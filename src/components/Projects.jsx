@@ -2,44 +2,46 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import mcniff from '../images/mcniff.png';
 import rayvvin from '../images/rayvvin.png';
-import netflix from '../images/netflix.jpg';
-import space from '../images/space.jpg';
-import cocktail from '../images/cocktail.jpg';
+import dees from '../images/dees.png';
 import portfolio from '../images/portfolio.jpg';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper';
-
-import { AiOutlineRight, AiOutlineLeft } from 'react-icons/ai';
 
 const Projects = () => {
   const projects = [
-    // {
-    //   id: 1,
-    //   img: rayvvin,
-    //   link: 'https://rayvvin.com/',
-    //   name: 'Rayvvin',
-    //   title:
-    //     'Built with Next.js, Integrated with SCSS, Tailwind CSS, and Axios for Seamless Ecommerce Experience',
-    // },
     {
       id: 1,
       img: mcniff,
       link: 'https://mcnifcuisine.co.uk/',
       name: 'Mcniff Website',
       title:
-        'Developed with Next.js, Tailwind CSS, and Axios for a Seamless Ecommerce Experience. This project was a collaborative effort by my team and me.',
+        'Developed with Next.js, Tailwind CSS, and TypeScript. This project was a collaborative effort by my team and me.',
     },
     {
       id: 2,
+      img: dees,
+      link: 'https://deestravels.com/',
+      name: 'Dees Travel Website',
+      title:
+        'Developed with Next.js, SCSS, and TypeScript. This project was a collaborative effort by my team and me.',
+    },
+    {
+      id: 3,
       img: portfolio,
       link: 'https://my-portfolio-rust-one-97.vercel.app/',
-      //   github: 'https://github.com/Iwumezie-pamela/my-portfolio',
       name: 'Portfolio',
       title:
-        ' Built with React js and tailwind css. Animation was also created using framer motion',
+        'Built with React.js and Tailwind CSS. Animations were created using Framer Motion.',
+    },
+    {
+      id: 4,
+      img: rayvvin,
+      link: 'https://rayvvin.com/',
+      name: 'Rayvvin',
+      title:
+        'Built with Next.js and integrated with SCSS, Tailwind CSS, and Axios for a seamless ecommerce experience.',
     },
   ];
 
@@ -84,16 +86,11 @@ const Projects = () => {
                 <div className='flex gap-5 items-center justify-center '>
                   <a
                     href={link}
+                    target='_blank'
                     className='border border-emerald-300/50 hover:scale-105 px-5 py-2 md:px-7  rounded-full transition duration-300 ease-in-out'
                   >
                     Live Link
                   </a>
-                  {/* <a
-                    href={github}
-                    className='border border-emerald-300/50 hover:scale-105 px-3 py-2 md:px-7  rounded-full transition duration-300 ease-in-out'
-                  >
-                    Github Link
-                  </a> */}
                 </div>
               </div>
             </article>
